@@ -39,9 +39,9 @@ h1:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px auto;
+  margin: 8% auto;
   padding: 10px auto;
-  width: 85vw;
+  width: 60vw;
   height: 500px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 30px;
@@ -62,9 +62,6 @@ h1:hover {
   display: flex;
   align-items: center;
 height: auto;
-
- 
-
 }
 /* --------------------------------------------------------------------- */
 img {
@@ -84,6 +81,10 @@ img {
 }
 
 .textofinal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 150px;
   padding: 50px;
   background: linear-gradient(#ba4f3f, #8d2437);
